@@ -37,8 +37,16 @@ Stork Verify BOT
 
 - **accounts.txt:** You will find the file `accounts.txt` inside the project directory. Make sure `accounts.txt` contains data that matches the format expected by the script. Here are examples of file formats:
   ```bash
-    Your refresh token1
-    Your refresh token2
+    [
+    {
+        "Email": "your email 1",
+        "Password": "your password 1"
+    },
+    {
+        "Email": "your email 2",
+        "Password": "your password 2"
+    }
+]
   ```
 - **proxy.txt:** You will find the `proxy.txt` file in the project directory. Make sure `proxy.txt` contains data that matches the format expected by the script. Here are examples of file formats:
   ```bash
